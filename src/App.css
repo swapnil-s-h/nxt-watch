@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+}
+
+input {
+  outline: none;
+}
+
+.popup-content {
+  width: 50%;
+  max-width: 400px;
+}
+
+@media screen and (max-width: 767px) {
+  .popup-content {
+    width: 80%;
+  }
+}
